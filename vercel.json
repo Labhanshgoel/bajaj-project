@@ -2,6 +2,10 @@
   "version": 2,
   "routes": [
     {
+      "src": "/health",
+      "dest": "/api/bfhl.js"
+    },
+    {
       "src": "/bfhl",
       "dest": "/api/bfhl.js"
     }
